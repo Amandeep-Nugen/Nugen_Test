@@ -21,12 +21,11 @@ export default function LoginPage() {
       }
     }
   }
-
   return (
     <div className="text-center">
       <br />
       <h2>Log in</h2>
-      <form action="/auth/login" method="POST">
+      <form>
         <input
           id="email"
           type="email"
